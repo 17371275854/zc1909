@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: springcloud_netflix_feign
+
+server:
+  port: 8676
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+feign:
+  hystrix:
+    enabled: true
