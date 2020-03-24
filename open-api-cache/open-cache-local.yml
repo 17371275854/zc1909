@@ -1,5 +1,0 @@
-spring:
-  redis:
-    host: 120.23.130.33
-    password: 851880
-    port: 6379
